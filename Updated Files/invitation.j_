@@ -1,0 +1,81 @@
+// adding replace varibles 
+function replaceContent() {
+
+// adding varibles RecipientName
+var myRecipientName;
+
+// Setting varibles to return from input feild 
+
+// adding varibles 
+myRecipientName = document.getElementById("recipientName").value;
+
+console.log('Variable myRecipientName:' + myRecipientName);
+
+// HTML Code to Varible names
+
+document.getElementById("recipientName").innerHTML = myRecipientName;
+
+// adding varible organizationName 
+var myOrganizationName;
+
+// Setting varibles to return from input feild 
+
+// adding varibles orginzation name
+myOrganizationName = document.getElementById("organizationName").value;
+
+console.log('Variable myOrganizationName:' + myOrganizationName);
+
+// HTML Code to Varible names
+
+document.getElementById("organizationName").innerHTML = myOrganizationName;
+
+
+// adding varible date 
+var myEventDate;
+
+// Setting varibles to return from input feild 
+
+// adding varibles 
+myRecipientName = document.getElementById("eventDate").value;
+
+
+console.log('Variable myEventDate:' + myEventDate);
+
+
+// HTML Code to Varible names
+
+document.getElementById("eventDate").innerHTML = myEventDate;
+
+// adding varible websiteURL
+var myWebsiteURL;
+
+// Setting varibles to return from input feild 
+
+// adding varibles 
+myWebsiteURL = document.getElementById("websiteURL").value;
+
+
+console.log('Variable myWebsiteURL:' + myWebsiteURL);
+
+
+// HTML Code to Varible names
+
+document.getElementById("websiteURL").innerHTML = myWebsiteURL;
+// adding varible date hostName
+var myHostName;
+
+// Setting varibles to return from input feild 
+
+// adding varibles 
+myHostName = document.getElementById("hostName").value;
+
+
+console.log('Variable myHostName:' + myHostName);
+
+
+// HTML Code to Varible names
+
+document.getElementById("hostName").innerHTML = myHostName;
+
+
+}
